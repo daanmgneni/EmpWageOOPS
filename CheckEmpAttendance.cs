@@ -15,7 +15,7 @@ namespace EmpWagev3
             int Ispresent = 1;
             int perHrWage = 20;
             int workingHrs = 0;
-            Random rnd = new Random();
+            Random rnd = new Random(2);
             int Attendance=rnd.Next();
 
             if ( Attendance == Ispresent )
