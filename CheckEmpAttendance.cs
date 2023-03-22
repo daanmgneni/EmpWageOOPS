@@ -13,8 +13,8 @@ namespace EmpWagev3
         public void EmpCheck()
         {
             int Ispresent = 1;
-            Random rnd = new Random(2);
-            int Attendance=rnd.Next();
+            Random rnd = new Random();
+            int Attendance=rnd.Next(2);
 
             if ( Attendance == Ispresent )
             {
