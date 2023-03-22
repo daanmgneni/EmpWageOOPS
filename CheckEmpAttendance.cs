@@ -19,30 +19,40 @@ namespace EmpWagev3
             
             int perHrWage = 20;
             int workingHrs = 0;
-            Random rnd = new Random();
-            int Attendance=rnd.Next(3);
+            int totalHrs = 0;   
 
-            switch (Attendance)
+            
 
+            for (int day=1; day <= 20; day++)
             {
-                case IspresentFullTime :
-                Console.WriteLine("Employee is present");
-                workingHrs = 8;
-                break;
+                Random rnd = new Random();
+                int Attendance = rnd.Next(3);
 
-                case Isabsent :           
-                Console.WriteLine("Employee is absent");
-                workingHrs = 0;
-                break;
+                switch (Attendance)
 
-                case IspresentHalfTime:
-                Console.WriteLine("Employee is present Half-Time");
-                workingHrs = 4;
-                break;
+                {
+                    case IspresentFullTime:
+                        Console.WriteLine("Employee is present");
+                        workingHrs = 8;
+                        break;
+
+                    case Isabsent:
+                        Console.WriteLine("Employee is absent");
+                        workingHrs = 0;
+                        break;
+
+                    case IspresentHalfTime:
+                        Console.WriteLine("Employee is present Half-Time");
+                        workingHrs = 4;
+                        break;
+                }
+
+                int dayWage = perHrWage * workingHrs;
+                Console.WriteLine($"The Day Wage : {dayWage}");
+                totalHrs += workingHrs;
             }
-
-            int dayWage = perHrWage * workingHrs;
-            Console.WriteLine($"The Day Wage : {dayWage}");
+            int monthlyWage= perHrWage * totalHrs;
+            Console.WriteLine($"\nMonthly Wage for the Employee : {monthlyWage} ");
 
         }
 
