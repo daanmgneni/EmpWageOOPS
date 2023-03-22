@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace EmpWagev3
 {
-    public class CheckEmpAttendance
+    public class Emp
     {
         
 
-        public void EmpCheck()
+        public int EmpMonthlyWage()
         {
             
             const int IspresentHalfTime = 2;
@@ -55,7 +55,7 @@ namespace EmpWagev3
             Console.WriteLine($"\nTotal Working Hours for the Month:{totalHrs}");
             int monthlyWage= perHrWage * totalHrs;
             Console.WriteLine($"Monthly Wage for the Employee : {monthlyWage} ");
-
+            return monthlyWage;
         }
 
         
