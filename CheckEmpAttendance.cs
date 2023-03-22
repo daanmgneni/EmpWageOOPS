@@ -12,18 +12,36 @@ namespace EmpWagev3
 
         public void EmpCheck()
         {
-            int Ispresent = 1;
-            Random rnd = new Random(2);
-            int Attendance=rnd.Next();
+            
+            int IspresentHalfTime = 2;
+            int IspresentFullTime = 1;
+            int Isabsent = 0;
+            
+            int perHrWage = 20;
+            int workingHrs = 0;
+            Random rnd = new Random();
+            int Attendance=rnd.Next(3);
 
-            if ( Attendance == Ispresent )
+            if ( Attendance == IspresentFullTime )
             {
                 Console.WriteLine("Employee is present");
+                workingHrs = 8;
+
             }
-            else
+            else if  ( Attendance == Isabsent )
             {
                 Console.WriteLine("Employee is absent");
+                workingHrs = 0;
             }
+            else if ( Attendance == IspresentHalfTime )
+            {
+                Console.WriteLine("Employee is present Half-Time");
+                workingHrs = 4;
+            }
+
+            int dayWage = perHrWage * workingHrs;
+            Console.WriteLine($"The Day Wage : {dayWage}");
+
         }
 
         
