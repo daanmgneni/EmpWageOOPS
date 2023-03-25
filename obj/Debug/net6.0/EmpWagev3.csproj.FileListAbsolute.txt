@@ -1,0 +1,15 @@
+D:\VS\EmpWagev3\obj\Debug\net6.0\EmpWagev3.csproj.AssemblyReference.cache
+D:\VS\EmpWagev3\obj\Debug\net6.0\EmpWagev3.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS\EmpWagev3\obj\Debug\net6.0\EmpWagev3.AssemblyInfoInputs.cache
+D:\VS\EmpWagev3\obj\Debug\net6.0\EmpWagev3.AssemblyInfo.cs
+D:\VS\EmpWagev3\obj\Debug\net6.0\EmpWagev3.csproj.CoreCompileInputs.cache
+D:\VS\EmpWagev3\bin\Debug\net6.0\EmpWagev3.exe
+D:\VS\EmpWagev3\bin\Debug\net6.0\EmpWagev3.deps.json
+D:\VS\EmpWagev3\bin\Debug\net6.0\EmpWagev3.runtimeconfig.json
+D:\VS\EmpWagev3\bin\Debug\net6.0\EmpWagev3.dll
+D:\VS\EmpWagev3\bin\Debug\net6.0\EmpWagev3.pdb
+D:\VS\EmpWagev3\obj\Debug\net6.0\EmpWagev3.dll
+D:\VS\EmpWagev3\obj\Debug\net6.0\refint\EmpWagev3.dll
+D:\VS\EmpWagev3\obj\Debug\net6.0\EmpWagev3.pdb
+D:\VS\EmpWagev3\obj\Debug\net6.0\EmpWagev3.genruntimeconfig.cache
+D:\VS\EmpWagev3\obj\Debug\net6.0\ref\EmpWagev3.dll

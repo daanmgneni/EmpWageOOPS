@@ -6,13 +6,20 @@ using System.Threading.Tasks;
 
 namespace EmpWageComputationProblemWithOOP
 {
+    using System;
+
     public class EmpWageCode
     {
-        public const int IsFullTime = 1;
-        public const int IsPartTime = 2;
-
-        public class CompanyEmpWage
+        public interface ParentComputeEmpWage
         {
+            void EmpWageBuilder();
+        }
+        public class CompanyEmpWage : ParentComputeEmpWage
+
+        {
+            public const int IsFullTime = 1;
+            public const int IsPartTime = 2;
+
             public string CompanyName;
             public int EmpWagePerHour;
             public int WorkingDaysPerMonth;
